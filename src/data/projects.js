@@ -3,20 +3,21 @@ export const projects = [
 
   {
     id: 3,
-    title: "LLM Code Review Bot",
+    title: "StudySynth",
     category: "genai-llms",
-    description: "GitHub-integrated bot powered by GPT-4 that reviews PRs, suggests fixes, and writes tests.",
-    tags: ["LangChain", "GPT-4", "GitHub API", "FastAPI"],
+    description: "StudySynth is an AI-powered web app that transforms your handwritten or digital notes into : Concise summaries,  Interactive quizzes and Audio explanations. All from just a few uploaded images. Synthesize your notes into Smarter Learning.",
+    tags: ["Python", "Gemini-API", "Streamlit"],
+    image: "/StudySynth.png",
     gradient: "linear-gradient(135deg, #8b5cf6 0%, #ec4899 100%)",
-    liveUrl: "https://github.com",
-    repoUrl: "https://github.com"
+    liveUrl: "https://studysynthai.streamlit.app/",
+    repoUrl: "https://github.com/DipeanDas/StudySynth"
   },
   {
     id: 11,
     title: "Road Accidents in England: Analyzing Patterns and Trends",
     category: "analytics-visualization",
     description: "In a comprehensive examination of road accident data across England, this analysis sheds light on the factors and patterns driving incident rates on the roads. From identifying peak accident times to uncovering correlations between accident severity and weather conditions, the findings reveal key insights into road safety. The project leverages statistical tools and visualizations to present a data-driven perspective on how, when, and where road incidents are most likely to occur, informing strategies for safer travel.",
-    tags: ["Data Analysis", "Visualization", "Statistics"],
+    tags: ["Data Analysis", "Visualization", "Statistics"],    
     image: "/road-accidents.jpeg",
     gradient: "linear-gradient(135deg, #f5c518 0%, #e67e22 100%)",
     liveUrl: "https://github.com/DipeanDas/Road_Accident_Analysis_Dashboard",

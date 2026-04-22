@@ -55,7 +55,7 @@ const testimonials = [
 const services = [
   { icon: <BarChart2 size={26} />, title: 'Analytics & Visualization', count: 7, featured: true },
   { icon: <BrainCircuit size={26} />, title: 'Machine Learning', count: 4, featured: false },
-  { icon: <Sparkles size={26} />, title: 'GenAI & LLMs', count: 5, featured: false },
+  { icon: <Sparkles size={26} />, title: 'GenAI & LLMs', count: 2, featured: false },
 ];
 
 export default function Home() {
@@ -137,7 +137,7 @@ export default function Home() {
               </div>
               <div className="stat-divider" />
               <div className="stat">
-                <span className="stat-num">15+</span>
+                <span className="stat-num">13+</span>
                 <span className="stat-label">Successfull projects</span>
               </div>
             </div>
