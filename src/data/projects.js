@@ -136,12 +136,13 @@ export const projects = [
   },
   {
     id: 6,
-    title: "RAG Knowledge Assistant",
+    title: "SnapDebug",
     category: "genai-llms",
-    description: "Retrieval-augmented generation system for enterprise document Q&A with source citations.",
-    tags: ["LlamaIndex", "Pinecone", "Claude", "Next.js"],
+    description: "SnapDebug is a lightweight AI-powered debugging tool that helps you quickly understand and fix coding errors.Just upload a screenshot of an error or paste your code, and get structured debugging insights instantly.No setup. No digging through forums. Just answers with clarity.Features include input as code screenshot or paste code and provides with hints or solutions.",
+    tags: ["Python", "Gemini-API", "Streamlit" ],
+    image: "/snapdebug.png",
     gradient: "linear-gradient(135deg, #6366f1 0%, #14b8a6 100%)",
-    liveUrl: "https://github.com",
-    repoUrl: "https://github.com"
+    liveUrl: "https://snapdebug.streamlit.app/",
+    repoUrl: "https://github.com/DipeanDas/SnapDebug"
   }
 ];
